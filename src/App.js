@@ -1,11 +1,13 @@
-import "./App.css";
-
-function App() {
+import { Outlet } from "react-router-dom";
+import Header from "./components/Layout/Header";
+import Footer from "./components/Layout/Footer";
+const App = () => {
   return (
     <>
-      <h1>This is a sample text for testing tailwind</h1>
+      <Header />
+      <Outlet />
+      <Footer />
     </>
   );
-}
-
+};
 export default App;
