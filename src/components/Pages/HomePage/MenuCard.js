@@ -7,7 +7,7 @@ const MenuCard = ({ name, price, description, imgUrl, index }) => {
       <div className="flex flex-col justify-between h-full p-4">
         <div className="flex justify-between items-center mb-3">
           <h3 className="font-extrabold text-xl">{name}</h3>
-          <h3 className="text-xl text-lemonred">{price}</h3>
+          <h3 className="text-xl text-lemonred">${price}</h3>
         </div>
         <p className="font-markazi text-xl mb-3">{description}</p>
         <Link

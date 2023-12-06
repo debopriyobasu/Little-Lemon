@@ -4,6 +4,10 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import greekSaladImage from "../assets/greek-salad.jpg";
 import bruschettaImage from "../assets/bruschetta.jpg";
 import lemonDessertImage from "../assets/lemon-dessert.jpg";
+import testimonialSecond from "../assets/pexels-tim-douglas-6567336.jpg";
+import testimonialFirst from "../assets/pexels-apunto-group-agencia-de-publicidad-7752810.jpg";
+import testimonialFourth from "../assets/pexels-monstera-production-5876513.jpg";
+import testimonialThird from "../assets/pexels-tima-miroshnichenko-5452201.jpg";
 export const NAV_ITEMS = {
   Home: "/",
   About: "/about",
@@ -65,5 +69,31 @@ export const menuList = [
     description:
       "This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.",
     imgURL: lemonDessertImage,
+  },
+];
+export const TESTIMONIAL_DATA = [
+  {
+    name: "John Doe",
+    imgUrl: testimonialFirst,
+    rating: 4.5,
+    review: "Great service! I'm very satisfied with my purchase.",
+  },
+  {
+    name: "Jane Smith",
+    imgUrl: testimonialSecond,
+    rating: 5,
+    review: "Excellent product quality. Will definitely buy again!",
+  },
+  {
+    name: "Alice Johnson",
+    imgUrl: testimonialThird,
+    rating: 4,
+    review: "Good value for money. Fast delivery.",
+  },
+  {
+    name: "Bob Williams",
+    imgUrl: testimonialFourth,
+    rating: 4.7,
+    review: "Impressive customer service. Highly recommended.",
   },
 ];
