@@ -8,7 +8,7 @@ const ImageStack = ({ image1, image2 }) => {
   };
 
   return (
-    <div className="relative w-60 h-60 md:w-72 md:h-72">
+    <div className="relative w-60 h-60 md:w-72 md:h-72 md:mx-auto">
       <img
         src={topImage === image1 ? image1 : image2}
         alt="Top"

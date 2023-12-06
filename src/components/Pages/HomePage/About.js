@@ -4,11 +4,11 @@ import image2 from "../../../assets/chefs-mario-and-adrian_b.jpg";
 const About = () => {
   return (
     <div className="bg-white text-lemongreen">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:container lg:mx-auto lg:max-w-screen-lg pt-20 pb-40 gap-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 lg:container lg:mx-auto lg:max-w-screen-lg pt-20 pb-40 gap-10">
         <div>
-          <h2 className="text-3xl font-extrabold">About Little Lemon</h2>
-          <h3 className="text-2xl py-3">Chicago</h3>
-          <p>
+          <h2 className="text-4xl font-extrabold">About Little Lemon</h2>
+          <h3 className="text-3xl py-3">Chicago</h3>
+          <p className="font-markazi text-xl">
             Nestled in the heart of Chicago, the Little Lemon Restaurant is a
             culinary gem that offers an authentic Mediterranean experience. The
             dynamic duo, Adrian and Mario, have poured their heart and soul into
