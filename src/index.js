@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./components/Pages/Home";
+import Home from "./components/Pages/HomePage/Home";
 import Reservations from "./components/Pages/Reservations";
 import InProgress from "./components/Pages/InProgress";
 import Error from "./components/Pages/Error";

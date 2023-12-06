@@ -8,3 +8,8 @@
   box-sizing: border-box;
   font-family: "Karla", sans-serif;
 }
+@layer components {
+  .btn {
+    @apply inline-block px-6 py-2 text-lg font-markazi font-bold leading-6 text-center text-lemonblack transition bg-lemonyellow rounded shadow hover:shadow-lg hover:bg-lemonred hover:text-lemonwhite focus:outline-none flex-shrink-0;
+  }
+}

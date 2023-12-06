@@ -26,7 +26,7 @@ const Header = () => {
           )}
         </button>
         <nav
-          className={`fixed transform top-0 left-0 w-64 h-full bg-white overflow-auto ease-in-out transition-transform duration-200 z-1 ${
+          className={`fixed transform top-0 left-0 w-64 h-full bg-white overflow-auto ease-in-out transition-transform duration-200 z-10 ${
             navExpanded ? "translate-x-0" : "-translate-x-full"
           } lg:translate-x-0 lg:static lg:h-auto lg:w-auto`}
         >
