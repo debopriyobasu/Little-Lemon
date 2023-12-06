@@ -11,6 +11,9 @@ module.exports = {
         lemongreen: "#495e57",
         lemonyellow: "#f4ce14",
       },
+      animation: {
+        pulse: "pulse 3s infinite",
+      },
     },
   },
   plugins: [],
